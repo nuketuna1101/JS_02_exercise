@@ -10,3 +10,15 @@
 4. (선택 사항) CSS로 간단한 스타일을 적용합니다.
 5. (선택 사항) 사용자 경험을 향상시키기 위한 기능을 추가합니다. (e.g. 남은 시간초 노출, 텍스트 입력 시 안내 문구 노출, 점수 표시 등)
 
+
+<br>
+
+#### <결과화면>
+
+
+https://github.com/user-attachments/assets/aebccff8-baa7-422b-a790-64f2d4cbeab4
+
+
+
+https://github.com/user-attachments/assets/94c6ea8a-d681-4c9f-a006-1eff26d1878c
+
