@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+            crossorigin="anonymous">
+		<!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            crossorigin="anonymous"></script>
+        <!-- GoogleFont: Jaro -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Stylish&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+        
+        <title>Number Memorization Game :: by KO</title>
+
+        <!-- css -->
+        <link href="../static/myStyle.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <!-- js -->
+        <script type="text/javascript" src="../static/NumMemo.js"></script>
+        <!-- Title -->
+        <div class="title-container">
+            <h1 class="title">
+                [ 숫자 기억 게임 ]
+            </h1>
+            <h4 class="objective">
+                시작 버튼을 누르면 3초간 숫자가 표시됩니다. 꼭 숫자를 외워 정답을 맞추세요!
+            </h4>
+        </div>
+        <!-- 팝업 위치 : 맞춰야 할 숫자 혹은 결과 내용 디스플레이 -->
+        <div class="display-container">            
+            <h2 id="display-content"></h2>
+        </div>
+        <!-- 팝업되는 동안 타이머 시각화 위치 -->
+        <div class="timer-container">
+            <h4 id="timer-content"></h4>
+        </div>
+        <!-- 시작버튼, 제출버튼 위치 -->
+        <div class="main-container">
+            <button type="submit" id="start-button" class="button" onclick="startGame();">START</button>
+            <br>
+            <div id="input-container" class="input-container">
+                <textarea id="input-content" placeholder="THE NUMBER IS .." rows="2"></textarea>
+                <button type="submit" id="submit-button" class="button" onclick="submitNumber();">SUBMIT</button>
+            </div>
+        </div>
+    </body>
+</html>
